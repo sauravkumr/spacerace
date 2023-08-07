@@ -66,3 +66,33 @@ p {
     margin-bottom: 20px;
 }
 
+
+
+/* Images */
+#bannerImage {
+    max-width: 100%;  /* Ensures image scales down if it's too wide */
+    height: auto;  /* Keeps the image's original aspect ratio */
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.sectionImage {
+    width: 90%;  /* Slightly smaller to have some padding around */
+    max-width: 600px;  /* Limits how big it can be on larger screens */
+    margin: 20px auto;  /* Centers the image and provides spacing */
+    display: block;  /* Allows margin auto to work */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#sponsorLogos {
+    display: flex;
+    flex-wrap: wrap;  /* Allows logos to wrap to next line on smaller screens */
+    justify-content: center;  /* Centers logos */
+    gap: 20px;  /* Space between logos */
+}
+
+#sponsorLogos img {
+    width: 100px;  /* Example size; adjust as needed */
+    height: auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
